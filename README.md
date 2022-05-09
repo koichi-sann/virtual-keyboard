@@ -1,9 +1,15 @@
-# Virtual keyboard
+# 🚀 Welcome to your new awesome project!
 
-## Build project
+This project has been created using **webpack-cli**, you can now run
 
+```
 npm run build
+```
 
-## Start project server
+or
 
-npm start
+```
+yarn build
+```
+
+to bundle your application
