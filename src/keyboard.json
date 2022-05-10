@@ -1,0 +1,35 @@
+{
+  "en": [
+    {
+      "value": "`",
+      "className": "button",
+      "code": "Backquote",
+      "type": "letter"
+    },
+    {
+      "value": "1",
+      "className": "button",
+      "code": "Digit1",
+      "type": "letter"
+    },
+    {
+      "value": "2",
+      "className": "button",
+      "code": "Digit2",
+      "type": "letter"
+    },
+    {
+      "value": "3",
+      "className": "button",
+      "code": "Digit3",
+      "type": "letter"
+    },
+    {
+      "value": "Backspace",
+      "className": "button__long",
+      "code": "Backspace",
+      "type": "functional"
+    }
+  ],
+  "ru": []
+}
