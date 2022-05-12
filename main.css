@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: black;
+  background-image: url(7002a4b216191e1e317b.jpg);
   color: white;
   width: 100vw;
   height: 100vh;
@@ -23,32 +23,63 @@ body {
 }
 
 .keyboard {
-  width: 800px;
-  height: 400px;
+  height: 300px;
+  max-width: 800px;
   margin: 20px auto;
-  background-color: yellow;
-  box-shadow: 10px 10px 10px 10px rgba(122, 17, 127, 0.9);
+  padding: 5px;
+  background-color: transparent;
+  border: 1px solid #af1;
+  display: flex;
+  flex-wrap: wrap;
+  box-shadow: 0px 0px 10px 10px rgba(229, 92, 149, 0.5);
+  justify-content: center;
 }
 
 .textarea {
   width: 800px;
   height: 350px;
-  background-color: blue;
-  box-shadow: 10px 10px 10px 10px rgba(122, 17, 127, 0.9);
+  background-color: transparent;
+  color: #fff;
+  box-shadow: 0px 0px 10px 10px rgba(229, 92, 149, 0.5);
 }
 
 .info {
   padding-top: 20px;
   max-width: 500px;
   text-align: center;
+  text-shadow: 10px 0px 10px pink;
 }
 
 .button {
+  width: 45px;
+  margin: 2px;
+  box-sizing: border-box;
+  height: 45px;
+  text-align: center;
+  background-color: #000;
+  border-radius: 5px;
+  box-shadow: 8px 8px 8px 0px rgba(34, 60, 80, 0.8);
+  line-height: 30px;
+  border: 2px solid #000;
 }
 
-.button__long {
-  width: 400px;
-  color: black;
-  border: 1px solid red;
+.button:hover {
+  border: 2px solid #fa30af;
+}
+
+.normal__tab {
+  width: 70px;
+}
+
+.normal__long {
+  width: 90px;
+}
+
+.normal__llong {
+  width: 130px;
+}
+
+.normal__space {
+  width: 300px;
 }
 
