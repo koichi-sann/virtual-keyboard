@@ -7,7 +7,12 @@ class Keyboard extends Control {
     super(parentNode, 'div', 'keyboard')
 
     layout.en.map((i) => {
-      const button = new Button(this.node, 'div', i.className, i.value)
+      const button = new Button(
+        this.node,
+        'div',
+        `button ${i.className}`,
+        i.value
+      )
     })
   }
 }
