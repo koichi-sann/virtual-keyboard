@@ -1,19 +1,23 @@
 import Control from './utils/Control'
 import Button from './buttonView'
+import KeyboardModel from './keyboardModel'
 import layout from './keyboard.json'
 
 class Keyboard extends Control {
-  constructor(parentNode: HTMLElement | null) {
+  private model: KeyboardModel
+  constructor(parentNode: HTMLElement | null, model: KeyboardModel) {
     super(parentNode, 'div', 'keyboard')
+    this.model = model
+    const lang = 'ru'
+    this.updateLang(lang)
 
-    layout.en.map((i) => {
-      const button = new Button(
-        this.node,
-        'div',
-        `button ${i.className}`,
-        i.value
-      )
+    layout[lang].map((i) => {
+      new Button(this.node, 'div', `button ${i.className}`, i.value)
     })
+  }
+  updateLang(lang: string): void {
+    console.log(lang)
+    console.log(layout)
   }
 }
 

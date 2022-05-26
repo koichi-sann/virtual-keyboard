@@ -9,9 +9,7 @@ class Button extends Control {
   ) {
     super(parentNode, tagName, className, textContent)
 
-  this.node.onclick = () => {
-    console.log(textContent)
-  }
+    this.node.onclick = () => {}
   }
 }
 
